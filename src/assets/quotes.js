@@ -1,3 +1,4 @@
+// const fs = require("fs");
 const quotes = [
   "If I know what love is, it is because of you. - Herman Hesse",
   "The time is always right to do what is right. - Martin Luther King, Jr",
@@ -305,3 +306,18 @@ const quotes = [
 ];
 
 export default quotes;
+
+// const splitQuotes = quotes.map((quote) => {
+//   return quote.split(" - ");
+// });
+
+// let file = fs.createWriteStream("./splitQuotes.txt");
+// file.on("error", function (err) {
+//   /* error handling */
+// });
+// splitQuotes.forEach(function (v) {
+//   file.write(v.join(", ") + "\n");
+// });
+// file.end();
+
+// // export default quotes;
